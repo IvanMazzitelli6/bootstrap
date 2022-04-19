@@ -1,0 +1,80 @@
+/* archivo index.html */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.principal {
+  background-image: url('../images/fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+.barra{
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+ul{
+    background-color: rgb(255, 255, 255);
+}
+ul li{
+    
+    font-style: italic;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: solid;
+    text-overflow: ellipsis;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 2);
+  font-style: italic;
+}
+
+.parrafo {
+  font-style: italic;
+  justify-content: left;
+}
+
+.cuerpo{
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+img{
+  height: 433px;
+  image-rendering: auto;
+}
+
+.visitas:hover {
+ transform:scale(3) ;
+}
+
+.comida:hover {
+ transform: scale(3);
+}
+
+/*archivo historia.html*/
+
+.titulo2:hover{
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 2);
+  font-style: italic;
+  transform: scale(2);
+}
+
+
